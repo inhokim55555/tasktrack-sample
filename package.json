@@ -1,0 +1,22 @@
+{
+  "name": "tasktrack-sample",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node sample/build.mjs",
+    "start": "node sample/start.mjs",
+    "test": "node --test sample/*.test.mjs",
+    "audit:security": "npm audit --audit-level=low"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.7"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
